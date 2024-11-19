@@ -54,3 +54,24 @@ def browse(request):
 
 def restaurants(request):
     return render(request, "myApp/restaurants.html")
+
+def Jollibee(request):
+    return render(request, "myApp/Jollibee.html")
+
+def KFC(request):
+    return render(request, "myApp/KFC.html")
+
+def BurgerKing(request):
+    return render(request, "myApp/BurgerKing.html")
+
+def Chowking(request):
+    return render(request, "myApp/Chowking.html")
+
+def Greenwich(request):
+    return render(request, "myApp/Greenwich.html")
+
+def MangInasal(request):
+    return render(request, "myApp/MangInasal.html")
+
+def PizzaHut(request):
+    return render(request, "myApp/PizzaHut.html")
